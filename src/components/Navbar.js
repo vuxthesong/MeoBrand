@@ -25,22 +25,22 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
             <li className="nav-item mx-2">
-              <NavLink className="nav-link  fs-5 " to="/">
+              <NavLink className="nav-link  fs-5 " to="/MeoBrand/">
                 Home
               </NavLink>
             </li>
             <li className="nav-item mx-2 ">
-              <NavLink className="nav-link  fs-5" to="/products">
+              <NavLink className="nav-link  fs-5" to="/MeoBrand/products">
                 Product
               </NavLink>
             </li>
             <li className="nav-item mx-2 ">
-              <NavLink className="nav-link  fs-5" to="/about">
+              <NavLink className="nav-link  fs-5" to="/MeoBrand/about">
                 About
               </NavLink>
             </li>
             <li className="nav-item mx-2 ">
-              <NavLink className="nav-link  fs-5" to="/contact">
+              <NavLink className="nav-link  fs-5" to="/MeoBrand/contact">
                 Contact
               </NavLink>
             </li>
@@ -48,7 +48,7 @@ function Navbar() {
           <div className="d-flex mx-3">
             <NavLink
               className="btn btn-outline-dark mx-1 fs-5 "
-              to="/cart"
+              to="/MeoBrand/cart"
               type="submit"
             >
               <i className="fa fa-shopping-cart sign-in"></i> Cart (
@@ -56,7 +56,7 @@ function Navbar() {
             </NavLink>
             <NavLink
               className="btn btn-outline-dark mx-1 fs-5"
-              to="/login"
+              to="/MeoBrand/login"
               type="submit"
             >
               <i className="fa fa-sign-in"></i> Login
