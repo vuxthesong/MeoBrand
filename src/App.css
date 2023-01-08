@@ -1,0 +1,13 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+
+    box-sizing: border-box;
+}
+
+.banner-text{
+    color: rgb(251, 252, 249);
+    text-shadow: 2px 4px 3px #9f2121;
+}
