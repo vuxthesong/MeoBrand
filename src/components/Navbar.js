@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light py-3 shadow-sm">
       <div className="container-fluid">
-        <NavLink className="navbar-brand fw-bold fs-3 px-4" to="/">
+        <NavLink className="navbar-brand fw-bold fs-3 px-4" to="/MeoBrand/">
           LA COLLECTION
         </NavLink>
         <button

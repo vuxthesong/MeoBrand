@@ -14,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/MeoBrand/" element={<Home />} />
         <Route path="/MeoBrand/products" element={<Products />} />
-        <Route path="/product/:id" element={<Product />} />
+        <Route path="/MeoBrand/product/:id" element={<Product />} />
         <Route path="/MeoBrand/cart" element={<Cart />} />
       </Routes>
       <hr />
