@@ -77,7 +77,7 @@ function Product() {
           </button>
           <button
             className="btn btn-outline-dark mx-2"
-            onClick={() => navigate("/MeoBrand/cart")}
+            onClick={() => navigate("/cart")}
           >
             Go to Cart
           </button>

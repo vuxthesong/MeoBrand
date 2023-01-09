@@ -104,7 +104,7 @@ function Products() {
             <div
               className="col-md-3 col-sm-6 mb-4"
               onClick={() => {
-                navigate(`/MeoBrand/product/${product.id}`);
+                navigate(`/product/${product.id}`);
               }}
               key={product.id}
             >
@@ -120,7 +120,7 @@ function Products() {
                     {product.title.substring(0, 12)}
                   </h5>
                   <p className="card-text">${product.price}</p>
-                  <NavLink to={`/MeoBrand/product/${product.id}`}>
+                  <NavLink to={`/product/${product.id}`}>
                     <button className="btn btn-outline-dark">By Now</button>
                   </NavLink>
                 </div>
